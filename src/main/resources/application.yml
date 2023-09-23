@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DATASOURCE_HOST:localhost}:5444/cats-api
+    username: admin
+    password: admin
+spring-doc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+
+
+
+
+
+
